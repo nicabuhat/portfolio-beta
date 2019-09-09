@@ -1,0 +1,644 @@
+{
+  "navbar": [
+    {
+      "src": "about.html",
+      "txt": "About"
+    },
+    {
+      "src": "courses.html",
+      "txt": "Courses",
+      "list": [
+        {
+          "src": "course-html.html",
+          "txt": "HTML"
+        },
+        {
+          "src": "course-java.html",
+          "txt": "Java"
+        },
+        {
+          "src": "course-net.html",
+          "txt": ".Net"
+        },
+        {
+          "src": "course-office.html",
+          "txt": "Office"
+        }
+      ]
+    },
+    {
+      "src": "contact.html",
+      "txt": "Contact"
+    }
+  ],
+  "footer": [
+    {
+      "src": "sitemap.html",
+      "txt": "Sitemap"
+    },
+    {
+      "src": "policy.html",
+      "txt": "Privacy Policy"
+    },
+    {
+      "src": "contact.html",
+      "txt": "Contact"
+    }
+  ],
+
+  "info": [
+    {
+      "title": "Personalized Curriculum",
+      "text": "Courses tailored based on your progress and needs. ",
+      "img": "../assets/img/info_study.svg"
+    },
+    {
+      "title": "Comprehensive Lectures",
+      "text": "One on one tutoring interweaved with lectures.",
+      "img": "../assets/img/info_teach.svg"
+    },
+    {
+      "title": "Instant Feedback",
+      "text": "Receive response whenver you need.",
+      "img": "../assets/img/info_talk.svg"
+    }
+  ],
+  "courses": [
+    {
+      "title": "HTML",
+      "category": "Front-end",
+      "img": "../assets/img/course_html.svg",
+      "info": "course-html.html",
+      "sched": "course-html-schedule.html",
+      "snippet": "HTML is the standard markup language for creating Web pages."
+    },
+    {
+      "title": "Programming in Java",
+      "category": "Back-end",
+      "img": "../assets/img/course_java.svg",
+      "info": "course-java.html",
+      "sched": "course-java-schedule.html",
+      "snippet": "Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible."
+    },
+    {
+      "title": "Microsoft Office",
+      "category": "Full Stack",
+      "img": "../assets/img/course_office.svg",
+      "info": "course-office.html",
+      "sched": "course-office-schedule.html",
+      "snippet": "Microsoft Office is a family of client software, server software, and services developed by Microsoft."
+    },
+    {
+      "title": ".Net",
+      "category": "Back-end",
+      "img": "../assets/img/course_net.svg",
+      "info": "course-net.html",
+      "sched": "course-net-schedule.html",
+      "snippet": "NET is a developer platform with tools and libraries for building any type of app, including web, mobile, desktop, gaming, IoT, cloud, and microservices."
+    }
+  ],
+  "html": {
+    "title": "HTML: Hyper Text Markup Language",
+    "description": "The course prepares participants to develop websites from the scratch by understanding the coding features of HTML. Participants at the end of the course will be prepared to work in CSS and the latest version of HTML.",
+    "snippet": {
+      "duration": "1 week",
+      "study": "1 hour",
+      "prerequisite": "None",
+      "schedule": "course-html-schedule.html"
+    },
+    "details": {
+      "intro": "HTML is the foundation of all web pages. Without HTML, you wouldn’t be able to organize text or add images or videos to your web pages. HTML is the beginning of everything you need to know to create engaging web pages.",
+      "list": [
+        {
+          "title": "HTML Foundation",
+          "txt": "By the end of this course, you will have a basic & thorough understanding of HTML."
+        },
+        {
+          "title": "Real-world Project",
+          "txt": "By the end of the course you will be able to create full fledged HTML5 websites"
+        },
+        {
+          "title": "User Experience",
+          "txt": "You will be able to use features like Drag and Drop, Geo location and Web Storage to create immersible user experience."
+        }
+      ]
+    },
+    "img": "course-content__image course-content__image--html",
+    "schedule": {
+      "title": "HTML Course Calendar",
+      "link": "course-html.html",
+      "snippet": [
+        {
+          "date": "Day 1",
+          "title": "Fundamentals I",
+          "src": "#item1"
+        },
+        {
+          "date": "Day 2",
+          "title": "Fundamentals II",
+          "src": "#item2"
+        },
+        {
+          "date": "Day 3",
+          "title": "Projects",
+          "src": "#item3"
+        },
+        {
+          "date": "Day 4",
+          "title": "Conclusion",
+          "src": "#item4"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "item1",
+          "items": [
+            {
+              "date": "July 18, 2019",
+              "txt": "Working with HTML Documents",
+              "duration": "20 minutes"
+            },
+            {
+              "date": "July 18, 2019",
+              "txt": "Displaying Text",
+              "duration": "20 minutes"
+            },
+            {
+              "date": "July 18, 2019",
+              "txt": "Creating Lists",
+              "duration": "20 minutes"
+            }
+          ]
+        },
+        {
+          "id": "item2",
+          "items": [
+            {
+              "date": "July 19, 2019",
+              "txt": "Linking Documents",
+              "duration": "20 minutes"
+            },
+            {
+              "date": "July 19, 2019",
+              "txt": "HTML Tables",
+              "duration": "20 minutes"
+            },
+            {
+              "date": "July 20, 2019",
+              "txt": "Including Images",
+              "duration": "20 minutes"
+            }
+          ]
+        },
+        {
+          "id": "item3",
+          "items": [
+            {
+              "date": "July 20, 2019",
+              "txt": "Project Overview",
+              "duration": "20 minutes"
+            },
+            {
+              "date": "July 20, 2019",
+              "txt": "Content Planning",
+              "duration": "20 minutes"
+            },
+            {
+              "date": "July 20, 2019",
+              "txt": "Creating Full HTML",
+              "duration": "20 minutes"
+            }
+          ]
+        },
+        {
+          "id": "item4",
+          "items": [
+            {
+              "date": "July 21, 2019",
+              "txt": "Milestone Recap",
+              "duration": "20 minutes"
+            },
+            {
+              "date": "July 21, 2019",
+              "txt": "Conclusion",
+              "duration": "20 minutes"
+            },
+            {
+              "date": "July 21, 2019",
+              "txt": "CSS Preview",
+              "duration": "20 minutes"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "java": {
+    "title": "Programming in Java",
+    "description": "Learn Java in this course and become a computer programmer. obtain valuable Core Java skills and Java certification.",
+    "snippet": {
+      "duration": "1 month",
+      "study": "4 hours",
+      "prerequisite": "None",
+      "schedule": "course-java-schedule.html"
+    },
+    "details": {
+      "intro": "Java is among the most popular programming languages out there, mainly because of how versatile and compatible it is. Java can be used for a large number of things, including software development, mobile applications, and large systems development.",
+      "list": [
+        {
+          "title": "Variables and Data Types",
+          "txt": "Learn about datatypes in Java and how we use them."
+        },
+        {
+          "title": "Object-Oriented Java",
+          "txt": "Explore syntax for defining classes and creating instances."
+        },
+        {
+          "title": "Complex Data Types",
+          "txt": "Learn Arrays and Classes in Java."
+        }
+      ]
+    },
+    "img": "course-content__image course-content__image--java",
+    "schedule": {
+      "title": "Programming in Java Course Calendar",
+      "link": "course-java.html",
+      "snippet": [
+        {
+          "date": "Week 1",
+          "title": "Hello World",
+          "src": "#item1"
+        },
+        {
+          "date": "Week 2",
+          "title": "Data Types",
+          "src": "#item2"
+        },
+        {
+          "date": "Week 3",
+          "title": "Control Flow",
+          "src": "#item3"
+        },
+        {
+          "date": "Week 4",
+          "title": "Arrays",
+          "src": "#item4"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "item1",
+          "items": [
+            {
+              "date": "July 18, 2019",
+              "txt": "Java Program Structure",
+              "duration": "1 hour"
+            },
+            {
+              "date": "July 19, 2019",
+              "txt": "Freefrom Project",
+              "duration": "1 hour"
+            },
+            {
+              "date": "July 20, 2019",
+              "txt": "IDE",
+              "duration": "1 hour"
+            }
+          ]
+        },
+        {
+          "id": "item2",
+          "items": [
+            {
+              "date": "July 21, 2019",
+              "txt": "Variables",
+              "duration": "1 hour"
+            },
+            {
+              "date": "July 22, 2019",
+              "txt": "Mad Libs Project",
+              "duration": "1 hour"
+            },
+            {
+              "date": "July 23, 2019",
+              "txt": "Math Magic Project",
+              "duration": "1 hour"
+            }
+          ]
+        },
+        {
+          "id": "item3",
+          "items": [
+            {
+              "date": "July 24, 2019",
+              "txt": "Contorl Flow",
+              "duration": "1 hour"
+            },
+            {
+              "date": "July 25, 2019",
+              "txt": "Conditional Operators",
+              "duration": "1 hour"
+            },
+            {
+              "date": "July 16, 2019",
+              "txt": "Project",
+              "duration": "1 hour"
+            }
+          ]
+        },
+        {
+          "id": "item4",
+          "items": [
+            {
+              "date": "July 21, 2019",
+              "txt": "Java Arrays",
+              "duration": "1 hour"
+            },
+            {
+              "date": "July 21, 2019",
+              "txt": "Java ArrayList",
+              "duration": "1 hour"
+            },
+            {
+              "date": "July 21, 2019",
+              "txt": "Playlist Project",
+              "duration": "1 hour"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "net": {
+    "title": "Programming in .Net",
+    "description": "This course provides hands-on experience creating software for Microsoft's .NET (Windows platform) using the Visual Studio development environment.",
+    "snippet": {
+      "duration": "1 month",
+      "study": "4 hours",
+      "prerequisite": "Basic Programming",
+      "schedule": "course-net-schedule.html"
+    },
+    "details": {
+      "intro": "JStarting with the most fundamental elements of computer programming, the training evolves to leverage development techniques sufficient to produce a complete web application including the user interface, business logic and data access layers.",
+      "list": [
+        {
+          "title": "Fundamentals",
+          "txt": "Demonstrate the fundamental aspects of modern computer programming."
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "txt": "Write object-oriented logic using C# and Visual Basic (classes and libraries)"
+        },
+        {
+          "title": "Database",
+          "txt": "Build SQL Server databases and access them using the Entity Framework (EF)"
+        }
+      ]
+    },
+    "img": "course-content__image course-content__image--net",
+    "schedule": {
+      "title": "Programming in .Net Course Calendar",
+      "link": "course-net.html",
+      "snippet": [
+        {
+          "date": "Week 1",
+          "title": "Fundamentals",
+          "src": "#item1"
+        },
+        {
+          "date": "Week 2",
+          "title": "Entity Framework",
+          "src": "#item2"
+        },
+        {
+          "date": "Week 3",
+          "title": "Database",
+          "src": "#item3"
+        },
+        {
+          "date": "Week 4",
+          "title": "Package Manager",
+          "src": "#item4"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "item1",
+          "items": [
+            {
+              "date": "July 18, 2019",
+              "txt": "Action Parameters",
+              "duration": "1 hour"
+            },
+            {
+              "date": "July 19, 2019",
+              "txt": "Attribute Routing",
+              "duration": "1 hour"
+            },
+            {
+              "date": "July 20, 2019",
+              "txt": "Partial Views",
+              "duration": "1 hour"
+            }
+          ]
+        },
+        {
+          "id": "item2",
+          "items": [
+            {
+              "date": "July 21, 2019",
+              "txt": "Introduction",
+              "duration": "1 hour"
+            },
+            {
+              "date": "July 22, 2019",
+              "txt": "Code First Migration",
+              "duration": "1 hour"
+            },
+            {
+              "date": "July 23, 2019",
+              "txt": "Project",
+              "duration": "1 hour"
+            }
+          ]
+        },
+        {
+          "id": "item3",
+          "items": [
+            {
+              "date": "July 24, 2019",
+              "txt": "Seeding Database",
+              "duration": "1 hour"
+            },
+            {
+              "date": "July 25, 2019",
+              "txt": "Querying Objects",
+              "duration": "1 hour"
+            },
+            {
+              "date": "July 26, 2019",
+              "txt": "Overriding Conventions",
+              "duration": "1 hour"
+            }
+          ]
+        },
+        {
+          "id": "item4",
+          "items": [
+            {
+              "date": "July 27, 2019",
+              "txt": "Project",
+              "duration": "1 hour"
+            },
+            {
+              "date": "July 28, 2019",
+              "txt": "Eager Loading",
+              "duration": "1 hour"
+            },
+            {
+              "date": "July 29, 2019",
+              "txt": "Package Manager Console",
+              "duration": "1 hour"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "office": {
+    "title": "Microsoft Office",
+    "description": "Start learning essential skills in the powerhouse trio Excel, Word, and PowerPoint, as well as the other popular programs Access, Outlook, Project and Publisher.",
+    "snippet": {
+      "duration": "1 month",
+      "study": "4 hours",
+      "prerequisite": "None",
+      "schedule": "course-office-schedule.html"
+    },
+    "details": {
+      "intro": "You will learn how to create and manage Word documents, organize information in tables, perform calculations on data, create graphs and charts, organize your email Inbox, and manage email automatically.",
+      "list": [
+        {
+          "title": "Microsoft Word",
+          "txt": "Learn learn how to create and format clean, professional-looking documents."
+        },
+        {
+          "title": "Microsoft Excel",
+          "txt": "Learn how to best enter and organize data, perform calculations with simple functions, work with multiple worksheets, format the appearance of your data and cells, and build charts and PivotTables"
+        },
+        {
+          "title": "Microsoft Powerpoint",
+          "txt": "Learn how to best create, edit, and share presentations."
+        }
+      ]
+    },
+    "img": "course-content__image course-content__image--office",
+    "schedule": {
+      "title": "Microsoft Office Course Calendar",
+      "link": "course-office.html",
+      "snippet": [
+        {
+          "date": "Week 1",
+          "title": "Fundamentals I",
+          "src": "#item1"
+        },
+        {
+          "date": "Week 2",
+          "title": "Fundamentals II",
+          "src": "#item2"
+        },
+        {
+          "date": "Week 3",
+          "title": "Projects",
+          "src": "#item3"
+        },
+        {
+          "date": "Week 4",
+          "title": "Conclusion",
+          "src": "#item4"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "item1",
+          "items": [
+            {
+              "date": "July 18, 2019",
+              "txt": "Working with HTML Documents",
+              "duration": "20 minutes"
+            },
+            {
+              "date": "July 18, 2019",
+              "txt": "Displaying Text",
+              "duration": "20 minutes"
+            },
+            {
+              "date": "July 18, 2019",
+              "txt": "Creating Lists",
+              "duration": "20 minutes"
+            }
+          ]
+        },
+        {
+          "id": "item2",
+          "items": [
+            {
+              "date": "July 19, 2019",
+              "txt": "Linking Documents",
+              "duration": "20 minutes"
+            },
+            {
+              "date": "July 19, 2019",
+              "txt": "HTML Tables",
+              "duration": "20 minutes"
+            },
+            {
+              "date": "July 20, 2019",
+              "txt": "Including Images",
+              "duration": "20 minutes"
+            }
+          ]
+        },
+        {
+          "id": "item3",
+          "items": [
+            {
+              "date": "July 20, 2019",
+              "txt": "Project Overview",
+              "duration": "20 minutes"
+            },
+            {
+              "date": "July 20, 2019",
+              "txt": "Content Planning",
+              "duration": "20 minutes"
+            },
+            {
+              "date": "July 20, 2019",
+              "txt": "Creating Full HTML",
+              "duration": "20 minutes"
+            }
+          ]
+        },
+        {
+          "id": "item4",
+          "items": [
+            {
+              "date": "July 21, 2019",
+              "txt": "Milestone Recap",
+              "duration": "20 minutes"
+            },
+            {
+              "date": "July 21, 2019",
+              "txt": "Conclusion",
+              "duration": "20 minutes"
+            },
+            {
+              "date": "July 21, 2019",
+              "txt": "CSS Preview",
+              "duration": "20 minutes"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
