@@ -1,204 +1,25 @@
-// .nav {
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-between;
-//   padding: 0 3rem;
-//   background-color: #fff;
-//   box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.5);
-//   top: 0px;
-// }
+.sidenav {
+  background-color: $color-dark;
+  color: $color-white;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
 
-// .navbar {
-//   display: flex;
-//   align-items: center;
-//   height: 100%;
+.topnav {
+  background-color: $color-primary;
+  height: 5vh;
+  padding: 2rem 1rem;
+  margin: 2rem;
+  position: fixed;
+  right: 0;
+  z-index: 1;
 
-//   &__logo {
-//     height: 8vh;
-//   }
-// }
-
-// .menu {
-//   background: $color-white;
-//   margin: 0;
-//   width: auto;
-//   padding: 0;
-//   line-height: 1;
-//   display: block;
-//   position: relative;
-//   height: 100%;
-// }
-// .menu ul {
-//   list-style: none;
-//   margin: 0;
-//   padding: 0;
-//   display: block;
-//   height: 100%;
-// }
-// .menu ul:after,
-// .menu:after {
-//   content: " ";
-//   display: block;
-//   font-size: 0;
-//   height: 0;
-//   clear: both;
-//   visibility: hidden;
-// }
-// .menu ul li {
-//   margin: 0;
-//   padding: 0;
-//   display: flex;
-//   align-items: center;
-//   position: relative;
-//   height: 100%;
-// }
-// .menu ul li a {
-//   text-decoration: none;
-//   display: block;
-//   margin: 0;
-//   transition: color 0.2s ease;
-//   box-sizing: border-box;
-// }
-// .menu ul li ul {
-//   position: absolute;
-//   left: -9999px;
-//   top: 9vh;
-// }
-
-// // expanded menu bg color
-// .menu ul li ul li {
-//   max-height: 0;
-//   position: absolute;
-//   transition: max-height 0.4s ease-out;
-//   background: $color-accent;
-// }
-
-// //expanded menu text color
-// .menu ul li ul li a {
-//   font-size: 1.6rem;
-//   font-weight: 400;
-//   text-transform: none;
-//   color: $color-primary;
-//   letter-spacing: 0;
-//   display: block;
-//   width: 170px;
-//   padding: 11px 10px 11px 20px;
-// }
-
-// //expanded menu hover text color
-// .menu ul li ul li:hover > a,
-// .menu ul li ul li.active > a {
-//   color: $color-white;
-// }
-
-// .menu ul li ul li:hover > ul {
-//   left: 100%;
-//   top: 0;
-// }
-// .menu ul li ul li:hover > ul > li {
-//   max-height: 72px;
-//   position: relative;
-// }
-// .menu > ul > li {
-//   float: left;
-// }
-
-// //hover menu effect
-// .menu > ul > li:after {
-//   content: "";
-//   display: block;
-//   position: absolute;
-//   width: 100%;
-//   height: 0;
-//   top: 0;
-//   z-index: 0;
-//   background: $color-accent;
-//   transition: height 0.2s;
-// }
-// .menu > ul > li.has-sub > a {
-//   padding-right: 40px;
-// }
-
-// //expanded menu button bg
-// .menu > ul > li.has-sub > a:after {
-//   display: block;
-//   content: "";
-//   background: $color-primary;
-//   height: 12px;
-//   width: 12px;
-//   position: absolute;
-//   border-radius: 13px;
-//   right: 14px;
-//   top: 16px;
-// }
-
-// //expanded menu button color
-// .menu > ul > li.has-sub > a:before {
-//   display: block;
-//   content: "";
-//   border: 4px solid transparent;
-//   border-top-color: $color-white;
-//   z-index: 2;
-//   height: 0;
-//   width: 0;
-//   position: absolute;
-//   right: 16px;
-//   top: 21px;
-// }
-
-// //menu color
-// .menu > ul > li > a {
-//   color: $color-primary;
-//   padding: 15px 20px;
-//   font-weight: 700;
-//   letter-spacing: 1px;
-//   text-transform: uppercase;
-//   font-size: 1.6rem;
-//   z-index: 2;
-//   position: relative;
-// }
-// .menu > ul > li:hover:after,
-// .menu > ul > li.active:after {
-//   height: 100%;
-// }
-
-// //menu hover color
-// .menu > ul > li:hover > a,
-// .menu > ul > li.active > a {
-//   color: $color-white;
-// }
-
-// //expandded button hover bg
-// .menu > ul > li:hover > a:after,
-// .menu > ul > li.active > a:after {
-//   background: $color-white;
-// }
-// //expandded button hover color
-// .menu > ul > li:hover > a:before,
-// .menu > ul > li.active > a:before {
-//   border-top-color: $color-primary;
-// }
-// .menu > ul > li:hover > ul {
-//   left: 0;
-// }
-// .menu > ul > li:hover > ul > li {
-//   max-height: 72px;
-//   position: relative;
-// }
-// .menu #menu-button {
-//   display: none;
-// }
-// .menu > ul > li > a {
-//   display: block;
-// }
-// .menu > ul > li {
-//   width: auto;
-// }
-// // .menu > ul > li > ul {
-// //   width: 10px;
-// //   display: block;
-// // }
-// .menu > ul > li > ul > li {
-//   width: 129px;
-//   display: block;
-// }
+  &--link {
+    background-color: $color-dark;
+    border-radius: 0.5rem;
+    color: $color-white;
+    padding: 1rem;
+  }
+}
