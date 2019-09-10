@@ -6,23 +6,43 @@
   position: sticky;
   top: 0;
   height: 100vh;
-  padding: 4rem 2rem;
+  padding: 4rem 3rem;
 }
 
 .info {
   line-height: 2.5;
-  margin-top: 4rem;
-  // &--item {
-  //   padding-bottom: 1rem;
-  // }
+  margin-top: 6rem;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 3rem auto;
+  align-items: center;
+}
+
+.resume {
+  color: $color-white;
 }
 
 .social {
-  margin-top: 4rem;
-}
-.resume {
-  color: $color-white;
   margin-top: auto;
+
+  &__text {
+    display: inline-block;
+  }
+
+  &__item {
+    padding: 0 2rem;
+  }
+
+  &__icon {
+    color: $color-white;
+    font-size: 2.5rem;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
 }
 
 .topnav {
@@ -34,7 +54,7 @@
   right: 0;
   z-index: 1;
 
-  &--link {
+  &__link {
     background-color: $color-dark;
     border-radius: 0.5rem;
     color: $color-white;
