@@ -8,7 +8,7 @@ sass.compiler = require("node-sass");
 let paths = {
   src: "./src/",
   scss: "./src/sass/",
-  css: "./build/assets/css/"
+  css: "./build/assets/styles/"
 };
 
 //compile sass
