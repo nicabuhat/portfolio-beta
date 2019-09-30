@@ -7,6 +7,44 @@
   min-height: 200vh;
 }
 
+.grid {
+  display: grid;
+}
+
+.has-3-col {
+  grid-template-columns: repeat(auto-fill, minmax(28rem ,1fr ));
+  grid-column-gap: 2.5rem;
+
+}
+
+.col-1 {
+  background-color: $color-primary;
+}
 // .section {
 //   padding: 2rem;
 // }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .sidenav {
+    height: 100%;
+    background-color: $color-dark;
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    position: inherit;
+    padding: 4rem 3rem;
+  }
+
+  .info {
+    margin-bottom: 4rem
+  }
+
+  .home {
+    display: none
+  }
+}
