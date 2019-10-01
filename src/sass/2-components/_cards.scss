@@ -1,5 +1,42 @@
 .card {
-    &__subtitle {
-        margin-bottom: 1rem;
+  border: 1px solid rgb(241, 240, 240);
+  border-bottom: 4px solid $color-dark;
+  margin-bottom: 2rem;
+
+  &__thumbnail {
+    background-color: $color-primary;
+    position: relative;
+
+    &--img {
+      width: 100%;
     }
+  }
+
+  &__category {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+    background: $color-primary;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+  }
+
+  &__content {
+    padding: 2rem;
+  }
+
+  &__tags {
+    margin-bottom: 1rem;
+    color: $color-muted;
+  }
+
+  &__details {
+    margin-bottom: 3rem;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+  }
 }

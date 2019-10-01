@@ -9,23 +9,26 @@
     <title>NICABUHAT</title>
   </head>
   <body>
-    <div class="container ">
-      <div class="sidenav">
-        <div class="logo">Logo</div>
-        <div class="info">
-          <h2 class="info--item">Nicaela Cabuhat</h2>
-          <div class="details">
-            <span class="icon-map-marker"></span>
-            <p class="details--item">
-              Manila, Philippines
-            </p>
-            <span class="icon-phone"></span>
-            <p class="details--item">(+63) 939-298-5569</p>
-            <span class="icon-envelope"></span>
-            <p class="details--item">cabuhat.nicaela@gmail.com</p>
-            <span class="icon-cloud-download"></span>
-            <a class="resume" href="#"> download resume</a>
-          </div>
+    <div class="container">
+      <div class="logo">
+        logo
+      </div>
+      <nav class="nav">
+        nav
+      </nav>
+      <section class="section" id="profile">
+        <h1 class="section__title">Nicaela Cabuhat</h1>
+        <div class="details">
+          <span class="icon-map-marker"></span>
+          <p class="details__item">
+            Manila, Philippines
+          </p>
+          <span class="icon-phone"></span>
+          <p class="details__item">(+63) 939-298-5569</p>
+          <span class="icon-envelope"></span>
+          <p class="details__item">cabuhat.nicaela@gmail.com</p>
+          <span class="icon-cloud-download"></span>
+          <a class="details__item resume" href="#"> download resume</a>
         </div>
         <ul class="social">
           <h4 class="social__text">Social:</h4>
@@ -45,62 +48,97 @@
             ></a>
           </li>
         </ul>
-      </div>
-      <div class="content">
-        <nav class="topnav">
-          <ul>
-            <li class="topnav__item">
-              <a class="topnav__link" href="#projects">Projects</a>
-            </li>
-            <li class="topnav__item">
-              <a class="topnav__link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </nav>
-        <main class="main">
-          <section class="section home" id="home">
-            <h1 class="jumbotron home--text">Fullstack <br />Web Developer</h1>
-          </section>
-          <section class="section projects">
-            <h2>Projects</h2>
-            <div class="grid has-3-col ">
-              <div class="project card">
-                <h2 class="card__header">Project 1</h2>
-                <h3 class="card__subtitle">Fullstack</h3>
-                <div class="card__image"></div>
-                <p class="card__details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam mollitia, nisi aliquid doloribus velit autem commodi repellendus dolorum vel nihil?</p>
-                <h4 card="card__tagas">Tags</h4>
-                <div class="card__footer">
-                    <a href="">Code</a>
-                    <a href="">Demo</a>
-                </div>
+      </section>
+      <main class="content">
+        <section class="section hero">
+          <h1 class="jumbotron hero--text">Fullstack <br />Web Developer</h1>
+        </section>
+        <section class="section work">
+          <h1 class="section__title">Projects</h1>
+          <div class="projects">
+            <div class="project card">
+              <div class="card__thumbnail">
+                <img
+                  class="card__thumbnail--img"
+                  src="assets/images/project-movie-rental.jpg"
+                  alt=""
+                />
+                <h3 class="card__category">Fullstack</h3>
               </div>
-              <div class="project card">
-                <h2 class="card__header">Project 1</h2>
-                <h3 class="card__subtitle">Fullstack</h3>
-                <div class="card__image"></div>
-                <p class="card__details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam mollitia, nisi aliquid doloribus velit autem commodi repellendus dolorum vel nihil?</p>
-                <h4 card="card__tagas">Tags</h4>
+              <div class="card__content">
+                <h2 class="card__header">Movie Rental App</h2>
+                <h4 class="card__tags">Node, Express, CRUD</h4>
+                <p class="card__details">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquam mollitia, nisi aliquid doloribus velit autem commodi
+                  repellendus dolorum vel nihil?
+                </p>
                 <div class="card__footer">
-                    <a href="">Code</a>
-                    <a href="">Demo</a>
-                </div>
-              </div>
-              <div class="project card">
-                <h2 class="card__header">Project 1</h2>
-                <h3 class="card__subtitle">Fullstack</h3>
-                <div class="card__image"></div>
-                <p class="card__details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam mollitia, nisi aliquid doloribus velit autem commodi repellendus dolorum vel nihil?</p>
-                <h4 card="card__tagas">Tags</h4>
-                <div class="card__footer">
-                    <a href="">Code</a>
-                    <a href="">Demo</a>
+                  <h3><a href="">Code</a></h3>
+                  <h3><a href="">Demo</a></h3>
                 </div>
               </div>
             </div>
-          </section>
-        </main>
-      </div>
+            <div class="project card">
+              <div class="card__thumbnail">
+                <img
+                  class="card__thumbnail--img"
+                  src="assets/images/project-movie-rental.jpg"
+                  alt=""
+                />
+                <h3 class="card__category">Fullstack</h3>
+              </div>
+              <div class="card__content">
+                <h2 class="card__header">Movie Rental App</h2>
+                <h4 class="card__tags">Node, Express, CRUD</h4>
+                <p class="card__details">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquam mollitia, nisi aliquid doloribus velit autem commodi
+                  repellendus dolorum vel nihil?
+                </p>
+                <div class="card__footer">
+                  <h3><a href="">Code</a></h3>
+                  <h3><a href="">Demo</a></h3>
+                </div>
+              </div>
+            </div>
+            <div class="project card">
+              <div class="card__thumbnail">
+                <img
+                  class="card__thumbnail--img"
+                  src="assets/images/project-movie-rental.jpg"
+                  alt=""
+                />
+                <h3 class="card__category">Fullstack</h3>
+              </div>
+              <div class="card__content">
+                <h2 class="card__header">Movie Rental App</h2>
+                <h4 class="card__tags">Node, Express, CRUD</h4>
+                <p class="card__details">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquam mollitia, nisi aliquid doloribus velit autem commodi
+                  repellendus dolorum vel nihil?
+                </p>
+                <div class="card__footer">
+                  <h3><a href="">Code</a></h3>
+                  <h3><a href="">Demo</a></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="link">links</div>
+        <div class="contact">
+          <h1>Get in Touch</h1>
+          <form action="" class="form">
+            <input class="form__input" name="name "type="text" placeholder="Name">
+            <input class="form__input" name="email" type="email" placeholder="Email">
+            <textarea class="form__input" name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+          </form>
+        </div>
+      </footer>
     </div>
     <script src="assets/scipts/script.js"></script>
   </body>

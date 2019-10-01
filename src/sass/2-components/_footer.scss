@@ -1,0 +1,16 @@
+.footer {
+  background-color: $color-primary;
+  padding: 4rem 3rem;
+  z-index: 0;
+}
+
+.form {
+  &__input {
+    width: 100%;
+    padding: 1.5rem 2rem;
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 4px solid $color-dark;
+  }
+}
